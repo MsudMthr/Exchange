@@ -8,8 +8,14 @@ import Landing from "./components/Landing";
 import DarkMode from "./components/DarkMode";
 import DetailCoin from "./components/DetailCoin";
 import CoinContextProvider from "./context/CoinContextProvider";
+import Pagination from "./components/Pagination";
 
 const App = () => {
+
+
+
+
+
   return (
     <CoinContextProvider>
       <div className=" dark:bg-gray-800">
